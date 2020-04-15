@@ -11,7 +11,7 @@ This is my simple keymap for my [Planck](https://olkb.com/planck) keyboard, obvi
 
 The firmware is built automatically on every version-tagged commit (like `v1.0.1`) by a GitHub Action.
 
-Download the firmware from the [releases page](https://github.com/biosan/planck-keymap/releases).
+Download the firmware from [`git.io/planck-biosan`](https://git.io/planck-biosan) or from the [releases page](https://github.com/biosan/planck-keymap/releases).
 
 
 ### Build locally
