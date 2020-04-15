@@ -12,7 +12,7 @@ COMMAND="qmk compile --keyboard ${KEYBOARD} --keymap ${KEYMAP} && cp *.bin /bina
 
 # BUILD IT!
 # (and copy binary firmware into current folder)
-docker run --rm -it \
+docker run --rm \
     -v $(pwd)/keymap:${KEYMAP_FOLDER} \
     -v $(pwd)/binary:/binary \
     qmkfm/qmk_firmware \
